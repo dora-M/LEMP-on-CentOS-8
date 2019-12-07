@@ -58,7 +58,7 @@ MariaDB [test]> SELECT * FROM test.test_table;
 +------+------+
 2 rows in set (0.000 sec)
 
-MariaDB [test]> CREATE USER IF NOT EXISTS 'testuser'@'localhost' IDENTIFIED BY 'extemporal';
+MariaDB [test]> CREATE USER IF NOT EXISTS 'testuser'@'localhost' IDENTIFIED BY 'password';
 Query OK, 0 rows affected (0.000 sec)
 
 MariaDB [test]> GRANT SELECT ON test.test_table TO 'testuser'@'localhost';
