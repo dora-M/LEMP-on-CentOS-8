@@ -314,7 +314,7 @@ nginx    14148 14143  0 11:55 ?        00:00:00 php-fpm: pool www
 nginx    14149 14143  0 11:55 ?        00:00:00 php-fpm: pool www
 nginx    14150 14143  0 11:55 ?        00:00:00 php-fpm: pool www
 root     14399 10684  0 12:10 pts/1    00:00:00 grep --color=auto php
-[dora@home1 ~]$ elinks http://localhost/phpinfo.php
+[myuser@home1 ~]$ elinks http://localhost/phpinfo.php
 
                                                                                                                                                                                                   phpinfo() (1/20) 
    PHP logo                                                                                                                                                                                                        
