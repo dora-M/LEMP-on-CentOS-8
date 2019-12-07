@@ -75,7 +75,7 @@ Bye
 <?php
 $host='localhost';
 $username='testuser';
-$password='extemporal';
+$password='password';
 $database = 'test';
 $connect = mysqli_connect($host, $username, $password, $database) or die("Failed to connect to mariadb: " . mysqli_error()); 
 $result = $connect->query("select * FROM test.test_table");
