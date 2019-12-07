@@ -1,2 +1,2 @@
 # lemp
-install LEMP on Linux
+install LEMP on CentOS 8
